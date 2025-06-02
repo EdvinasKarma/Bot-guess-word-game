@@ -42,7 +42,7 @@ def BotGuessWord(words: list, myword: str):
 
         
 """
-Bot can guess only words that are in words.txt file
+Bot can guess only 6 letters words that are in words.txt file
 """
 myword = input("Your word: ")
 print(BotGuessWord(words,myword))
